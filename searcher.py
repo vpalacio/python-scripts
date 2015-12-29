@@ -1,6 +1,13 @@
-# Author: Victor Palacio 
-# Github: @vpalacio
-# Python program to filter between two points
+#!/usr/bin/env python
+# coding:utf-8
+
+"""Searcher.py: A python script to filter between 2 points in a file"""
+
+__author__ = "Victor Palacio"
+__license__ = "GPL"
+__version__ = "1.0.0"
+__maintainer__ = "Victor Palacio"
+__email__ = "vpalacio at gmail dot com"
 
 import argparse
 parser = argparse.ArgumentParser(description='Python script to filter between 2 points in a file')
