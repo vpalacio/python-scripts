@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# coding:utf-8
 
 """Searcher.py: A python script to filter between 2 points in a file"""
 
