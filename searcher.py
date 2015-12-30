@@ -5,8 +5,7 @@
 __author__ = "Victor Palacio"
 __license__ = "GPL"
 __version__ = "1.0.0"
-__maintainer__ = "Victor Palacio"
-__email__ = "vpalacio at gmail dot com"
+__email__ = "Github - @vpalacio"
 
 import argparse
 parser = argparse.ArgumentParser(description='Python script to filter between 2 points in a file')
