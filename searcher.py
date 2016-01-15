@@ -1,14 +1,16 @@
 #!/usr/bin/env python
 
-"""Searcher.py: A python script to filter between 2 points in a file"""
+"""Searcher.py: A python script to filter between 2 points in a file."""
+
+import argparse
 
 __author__ = "Victor Palacio"
 __license__ = "GPL"
-__version__ = "1.0.0"
+__version__ = "1.0"
 __email__ = "Github - @vpalacio"
 
-import argparse
-parser = argparse.ArgumentParser(description='Python script to filter between 2 points in a file')
+parser = argparse.ArgumentParser(
+   description='Python script to filter between 2 points in a file')
 parser.add_argument('-file', help='file to search through')
 parser.add_argument('-start', help='starting point')
 parser.add_argument('-end', help='end point')
