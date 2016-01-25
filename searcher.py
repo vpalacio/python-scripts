@@ -25,7 +25,7 @@ def main():
         parser.print_help()
         sys.exit(1)
 
-    args=parser.parse_args()
+    args = parser.parse_args()
 
     with open(args.file) as infile:
         copy = False
